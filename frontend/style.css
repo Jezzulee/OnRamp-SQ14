@@ -1,0 +1,186 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+body .hero-container {
+  background: rgb(215, 245, 245);
+  padding-block: 5rem;
+}
+body .hero-container .hero-container-inner {
+  margin-inline: 5rem;
+}
+body .hero-container .hero-container-inner .hero-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+body .hero-container .hero-container-inner .inner-container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+@media screen and (max-width: 1200px) {
+  body .hero-container .hero-container-inner .inner-container-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 992px) {
+  body .hero-container .hero-container-inner .inner-container-cards {
+    grid-template-columns: 1fr;
+  }
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head {
+  display: flex;
+  justify-content: space-between;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .card-head-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .card-head-left .image {
+  width: 4rem;
+  height: 4rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .card-head-left .image img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .card-head-left .card-name {
+  margin-top: -1rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .card-head-left .card-name .light {
+  margin-top: -2rem;
+  font-weight: 200;
+  color: #727272;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .card-head-left .card-name .bold {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .social-media {
+  margin-top: 0.8rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-head .social-media i {
+  color: #01acee;
+  font-size: 2rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-body {
+  color: #727272;
+  margin-top: 0.8rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-footer .card-footer-left {
+  display: flex;
+  gap: 0.5rem;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-footer .card-footer-left p {
+  margin-top: 0;
+}
+body .hero-container .hero-container-inner .inner-container-cards .card-1 .card-footer .card-footer-left i {
+  color: red;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+body .page-body {
+  display: flex;
+}
+body .page-body .page-body-inner {
+  margin: 3rem auto;
+  width: 40%;
+}
+@media screen and (max-width: 992px) {
+  body .page-body .page-body-inner {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 570px) {
+  body .page-body .page-body-inner {
+    width: 80%;
+  }
+}
+body .page-body .page-body-inner .top-container {
+  text-align: center;
+}
+body .page-body .page-body-inner .top-container h2 {
+  font-weight: 700;
+}
+body .page-body .page-body-inner .top-container p {
+  font-weight: 300;
+  color: #727272;
+}
+body .page-body .page-body-inner .page-contents {
+  border: 1.5px solid orange;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  border-radius: 10px;
+  background: #fbf8f3;
+}
+body .page-body .page-body-inner .page-contents .price-month .period {
+  color: #727272;
+}
+body .page-body .page-body-inner .page-contents .price-month .amount {
+  display: flex;
+}
+body .page-body .page-body-inner .page-contents .price-month .amount .currency {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+body .page-body .page-body-inner .page-contents .price-month .amount .per-month {
+  color: #727272;
+  margin-top: 1.5rem;
+}
+body .page-body .page-body-inner .page-contents .line {
+  height: 1px;
+  background: #727272;
+  margin-top: 1rem;
+}
+body .page-body .page-body-inner .page-contents .page-text .green {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #2ed8ae;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .page-body .page-body-inner .page-contents .page-text .text-1 {
+  display: flex;
+  gap: 2rem;
+}
+body .page-body .page-body-inner .page-contents .page-text .text-1 .desc {
+  color: #727272;
+}
+body .page-body .page-body-inner .page-contents button {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background: #01acee;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  align-items: center;
+  gap: 1rem;
+}
+body .page-body .page-body-inner .page-contents button i {
+  color: white;
+  font-size: 2rem;
+}
+body .page-body .page-body-inner .page-contents button p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
